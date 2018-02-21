@@ -2,14 +2,15 @@ require('normalize.css/normalize.css');
 require('styles/App.scss');
 
 import React from 'react';
-import SignIn from './SignIn'
+import ReactDOM from 'react-dom';
+import SignIn from './SignIn';
+
 
 class AppComponent extends React.Component {
     render() {
         return (
           <div className = "index" >
-            <SignIn></SignIn>
-          </div>
+            <SignIn > </SignIn> </div>
         );
     }
 }
